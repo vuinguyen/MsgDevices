@@ -10,9 +10,9 @@ import SwiftUI
 struct ActivityDisplayView: View {
     var body: some View {
         VStack {
-            Text("Message Ran:")
+            Text("Command Ran:")
                 .font(.title)
-            Text("Sample Message here!")
+            Text("Sample command here!")
         }.padding()
     }
 }

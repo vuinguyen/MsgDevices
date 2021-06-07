@@ -20,7 +20,7 @@ struct MainListView: View {
                 Text(msg.name)
             })
         }
-        .navigationBarTitle("Message Commands:")
+        .navigationBarTitle("Commands:")
     } // end of view
         }
 
