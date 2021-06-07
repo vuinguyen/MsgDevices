@@ -8,15 +8,22 @@
 import SwiftUI
 
 struct MainListView: View {
-    var msgList = MsgModel().msgItems
+    let msgModel = MsgModel()
+    let msgList = MsgModel().msgItems
     var body: some View {
-        NavigationView{
-            List(msgList) { msg in
+
+        NavigationView {
+        List(msgList) { msg in
+            Button(action: {
+                msgModel.runCommand(msgItem: msg)
+            }, label: {
                 Text(msg.name)
-            }
-            .navigationBarTitle("Message Commands:")
+            })
         }
-    }
+        .navigationBarTitle("Message Commands:")
+    } // end of view
+        }
+
 }
 
 struct MainListView_Previews: PreviewProvider {
