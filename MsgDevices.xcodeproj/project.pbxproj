@@ -16,6 +16,7 @@
 		520B4423266D710D003AECF0 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B4422266D710D003AECF0 /* MainListView.swift */; };
 		520B4426266D7384003AECF0 /* MsgModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B4425266D7384003AECF0 /* MsgModel.swift */; };
 		520B4428266D7903003AECF0 /* ActivityDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B4427266D7903003AECF0 /* ActivityDisplayView.swift */; };
+		5220182C2677C5FC00C36B2A /* ConnectionDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220182B2677C5FC00C36B2A /* ConnectionDisplayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		520B4422266D710D003AECF0 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 		520B4425266D7384003AECF0 /* MsgModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgModel.swift; sourceTree = "<group>"; };
 		520B4427266D7903003AECF0 /* ActivityDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDisplayView.swift; sourceTree = "<group>"; };
+		5220182B2677C5FC00C36B2A /* ConnectionDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionDisplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				520B43F9266D6FA6003AECF0 /* ContentView.swift */,
 				520B4422266D710D003AECF0 /* MainListView.swift */,
 				520B4427266D7903003AECF0 /* ActivityDisplayView.swift */,
+				5220182B2677C5FC00C36B2A /* ConnectionDisplayView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				520B4428266D7903003AECF0 /* ActivityDisplayView.swift in Sources */,
+				5220182C2677C5FC00C36B2A /* ConnectionDisplayView.swift in Sources */,
 				520B43FA266D6FA6003AECF0 /* ContentView.swift in Sources */,
 				520B4426266D7384003AECF0 /* MsgModel.swift in Sources */,
 				520B4423266D710D003AECF0 /* MainListView.swift in Sources */,
