@@ -11,15 +11,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Status")
-                .padding()
             Text("Messages")
-            Button(action: {}, label: {
-                Text("Direct Send")
-            })
-            Button(action: {}, label: {
-                Text("Background Send")
-            })
-        }
+            MainListView()
+        } // end VStrack
     }
 }
 

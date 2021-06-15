@@ -1,16 +1,17 @@
 //
 //  MainListView.swift
-//  MsgDevices
+//  MsgDevicesWatch Extension
 //
-//  Created by Vui Nguyen on 6/6/21.
+//  Created by Vui Nguyen on 6/15/21.
 //
 
 import SwiftUI
 
 struct MainListView: View {
-    let msgModel = MsgModel()
-    let msgList = MsgModel().msgItems
     var body: some View {
+        let msgModel = MsgModel()
+        let msgList = MsgModel().msgItems
+
 
         NavigationView {
             List(msgList) { msg in
@@ -20,10 +21,8 @@ struct MainListView: View {
                     Text(msg.name)
                 })
             }
-            .navigationBarTitle("Commands:")
-        } // end of view
+        }
     }
-
 }
 
 struct MainListView_Previews: PreviewProvider {

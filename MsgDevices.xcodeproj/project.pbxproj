@@ -27,6 +27,8 @@
 		522018482679472F00C36B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522018472679472F00C36B2A /* Assets.xcassets */; };
 		5220184B2679472F00C36B2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5220184A2679472F00C36B2A /* Preview Assets.xcassets */; };
 		522018502679472F00C36B2A /* MsgDevicesWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5220182F2679472900C36B2A /* MsgDevicesWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5220185C2679585C00C36B2A /* WatchMsgModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220185B2679585C00C36B2A /* WatchMsgModel.swift */; };
+		5220185E267959C100C36B2A /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220185D267959C100C36B2A /* MainListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,8 @@
 		5220184A2679472F00C36B2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5220184C2679472F00C36B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5220184D2679472F00C36B2A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5220185B2679585C00C36B2A /* WatchMsgModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMsgModel.swift; sourceTree = "<group>"; };
+		5220185D267959C100C36B2A /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				522018592679533B00C36B2A /* ExtensionViews */,
+				5220185A267955F200C36B2A /* Model */,
 				5220183D2679472E00C36B2A /* MsgDevicesApp.swift */,
 				522018412679472E00C36B2A /* NotificationController.swift */,
 				522018432679472E00C36B2A /* NotificationView.swift */,
@@ -268,8 +273,17 @@
 			isa = PBXGroup;
 			children = (
 				5220183F2679472E00C36B2A /* ContentView.swift */,
+				5220185D267959C100C36B2A /* MainListView.swift */,
 			);
 			path = ExtensionViews;
+			sourceTree = "<group>";
+		};
+		5220185A267955F200C36B2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5220185B2679585C00C36B2A /* WatchMsgModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -494,6 +508,8 @@
 				522018422679472E00C36B2A /* NotificationController.swift in Sources */,
 				522018402679472E00C36B2A /* ContentView.swift in Sources */,
 				522018462679472E00C36B2A /* ComplicationController.swift in Sources */,
+				5220185C2679585C00C36B2A /* WatchMsgModel.swift in Sources */,
+				5220185E267959C100C36B2A /* MainListView.swift in Sources */,
 				5220183E2679472E00C36B2A /* MsgDevicesApp.swift in Sources */,
 				522018442679472E00C36B2A /* NotificationView.swift in Sources */,
 			);
