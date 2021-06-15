@@ -176,9 +176,10 @@
 		520B43F6266D6FA6003AECF0 /* MsgDevices */ = {
 			isa = PBXGroup;
 			children = (
-				520B4429266D79F8003AECF0 /* MainView */,
+				520B43F7266D6FA6003AECF0 /* MsgDevicesApp.swift */,
 				520B43FB266D6FA7003AECF0 /* Assets.xcassets */,
 				520B4400266D6FA7003AECF0 /* Info.plist */,
+				520B4429266D79F8003AECF0 /* Views */,
 				520B4424266D7338003AECF0 /* Model */,
 				520B43FD266D6FA7003AECF0 /* Preview Content */,
 			);
@@ -219,16 +220,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		520B4429266D79F8003AECF0 /* MainView */ = {
+		520B4429266D79F8003AECF0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				520B43F7266D6FA6003AECF0 /* MsgDevicesApp.swift */,
 				520B43F9266D6FA6003AECF0 /* ContentView.swift */,
 				520B4422266D710D003AECF0 /* MainListView.swift */,
 				520B4427266D7903003AECF0 /* ActivityDisplayView.swift */,
 				5220182B2677C5FC00C36B2A /* ConnectionDisplayView.swift */,
 			);
-			path = MainView;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		522018302679472900C36B2A /* MsgDevicesWatch */ = {
@@ -243,8 +243,8 @@
 		5220183C2679472E00C36B2A /* MsgDevicesWatch Extension */ = {
 			isa = PBXGroup;
 			children = (
+				522018592679533B00C36B2A /* ExtensionViews */,
 				5220183D2679472E00C36B2A /* MsgDevicesApp.swift */,
-				5220183F2679472E00C36B2A /* ContentView.swift */,
 				522018412679472E00C36B2A /* NotificationController.swift */,
 				522018432679472E00C36B2A /* NotificationView.swift */,
 				522018452679472E00C36B2A /* ComplicationController.swift */,
@@ -262,6 +262,14 @@
 				5220184A2679472F00C36B2A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		522018592679533B00C36B2A /* ExtensionViews */ = {
+			isa = PBXGroup;
+			children = (
+				5220183F2679472E00C36B2A /* ContentView.swift */,
+			);
+			path = ExtensionViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
