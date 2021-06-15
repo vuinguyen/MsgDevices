@@ -17,6 +17,16 @@
 		520B4426266D7384003AECF0 /* MsgModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B4425266D7384003AECF0 /* MsgModel.swift */; };
 		520B4428266D7903003AECF0 /* ActivityDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B4427266D7903003AECF0 /* ActivityDisplayView.swift */; };
 		5220182C2677C5FC00C36B2A /* ConnectionDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220182B2677C5FC00C36B2A /* ConnectionDisplayView.swift */; };
+		522018322679472E00C36B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522018312679472E00C36B2A /* Assets.xcassets */; };
+		522018392679472E00C36B2A /* MsgDevicesWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 522018382679472E00C36B2A /* MsgDevicesWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5220183E2679472E00C36B2A /* MsgDevicesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220183D2679472E00C36B2A /* MsgDevicesApp.swift */; };
+		522018402679472E00C36B2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220183F2679472E00C36B2A /* ContentView.swift */; };
+		522018422679472E00C36B2A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522018412679472E00C36B2A /* NotificationController.swift */; };
+		522018442679472E00C36B2A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522018432679472E00C36B2A /* NotificationView.swift */; };
+		522018462679472E00C36B2A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522018452679472E00C36B2A /* ComplicationController.swift */; };
+		522018482679472F00C36B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522018472679472F00C36B2A /* Assets.xcassets */; };
+		5220184B2679472F00C36B2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5220184A2679472F00C36B2A /* Preview Assets.xcassets */; };
+		522018502679472F00C36B2A /* MsgDevicesWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5220182F2679472900C36B2A /* MsgDevicesWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +44,46 @@
 			remoteGlobalIDString = 520B43F3266D6FA6003AECF0;
 			remoteInfo = MsgDevices;
 		};
+		5220183A2679472E00C36B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520B43EC266D6FA6003AECF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522018372679472E00C36B2A;
+			remoteInfo = "MsgDevicesWatch Extension";
+		};
+		5220184E2679472F00C36B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520B43EC266D6FA6003AECF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5220182E2679472900C36B2A;
+			remoteInfo = MsgDevicesWatch;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		522018542679472F00C36B2A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				522018392679472E00C36B2A /* MsgDevicesWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522018582679472F00C36B2A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				522018502679472F00C36B2A /* MsgDevicesWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		520B43F4266D6FA6003AECF0 /* MsgDevices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MsgDevices.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +102,19 @@
 		520B4425266D7384003AECF0 /* MsgModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgModel.swift; sourceTree = "<group>"; };
 		520B4427266D7903003AECF0 /* ActivityDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDisplayView.swift; sourceTree = "<group>"; };
 		5220182B2677C5FC00C36B2A /* ConnectionDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionDisplayView.swift; sourceTree = "<group>"; };
+		5220182F2679472900C36B2A /* MsgDevicesWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MsgDevicesWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522018312679472E00C36B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		522018332679472E00C36B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522018382679472E00C36B2A /* MsgDevicesWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MsgDevicesWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5220183D2679472E00C36B2A /* MsgDevicesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgDevicesApp.swift; sourceTree = "<group>"; };
+		5220183F2679472E00C36B2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		522018412679472E00C36B2A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		522018432679472E00C36B2A /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		522018452679472E00C36B2A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		522018472679472F00C36B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5220184A2679472F00C36B2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5220184C2679472F00C36B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5220184D2679472F00C36B2A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +139,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		522018352679472E00C36B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +155,8 @@
 				520B43F6266D6FA6003AECF0 /* MsgDevices */,
 				520B4408266D6FA7003AECF0 /* MsgDevicesTests */,
 				520B4413266D6FA7003AECF0 /* MsgDevicesUITests */,
+				522018302679472900C36B2A /* MsgDevicesWatch */,
+				5220183C2679472E00C36B2A /* MsgDevicesWatch Extension */,
 				520B43F5266D6FA6003AECF0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +167,8 @@
 				520B43F4266D6FA6003AECF0 /* MsgDevices.app */,
 				520B4405266D6FA7003AECF0 /* MsgDevicesTests.xctest */,
 				520B4410266D6FA7003AECF0 /* MsgDevicesUITests.xctest */,
+				5220182F2679472900C36B2A /* MsgDevicesWatch.app */,
+				522018382679472E00C36B2A /* MsgDevicesWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +231,39 @@
 			path = MainView;
 			sourceTree = "<group>";
 		};
+		522018302679472900C36B2A /* MsgDevicesWatch */ = {
+			isa = PBXGroup;
+			children = (
+				522018312679472E00C36B2A /* Assets.xcassets */,
+				522018332679472E00C36B2A /* Info.plist */,
+			);
+			path = MsgDevicesWatch;
+			sourceTree = "<group>";
+		};
+		5220183C2679472E00C36B2A /* MsgDevicesWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5220183D2679472E00C36B2A /* MsgDevicesApp.swift */,
+				5220183F2679472E00C36B2A /* ContentView.swift */,
+				522018412679472E00C36B2A /* NotificationController.swift */,
+				522018432679472E00C36B2A /* NotificationView.swift */,
+				522018452679472E00C36B2A /* ComplicationController.swift */,
+				522018472679472F00C36B2A /* Assets.xcassets */,
+				5220184C2679472F00C36B2A /* Info.plist */,
+				5220184D2679472F00C36B2A /* PushNotificationPayload.apns */,
+				522018492679472F00C36B2A /* Preview Content */,
+			);
+			path = "MsgDevicesWatch Extension";
+			sourceTree = "<group>";
+		};
+		522018492679472F00C36B2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5220184A2679472F00C36B2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,10 +274,12 @@
 				520B43F0266D6FA6003AECF0 /* Sources */,
 				520B43F1266D6FA6003AECF0 /* Frameworks */,
 				520B43F2266D6FA6003AECF0 /* Resources */,
+				522018582679472F00C36B2A /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5220184F2679472F00C36B2A /* PBXTargetDependency */,
 			);
 			name = MsgDevices;
 			productName = MsgDevices;
@@ -214,6 +322,40 @@
 			productReference = 520B4410266D6FA7003AECF0 /* MsgDevicesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5220182E2679472900C36B2A /* MsgDevicesWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522018552679472F00C36B2A /* Build configuration list for PBXNativeTarget "MsgDevicesWatch" */;
+			buildPhases = (
+				5220182D2679472900C36B2A /* Resources */,
+				522018542679472F00C36B2A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5220183B2679472E00C36B2A /* PBXTargetDependency */,
+			);
+			name = MsgDevicesWatch;
+			productName = MsgDevicesWatch;
+			productReference = 5220182F2679472900C36B2A /* MsgDevicesWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		522018372679472E00C36B2A /* MsgDevicesWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522018512679472F00C36B2A /* Build configuration list for PBXNativeTarget "MsgDevicesWatch Extension" */;
+			buildPhases = (
+				522018342679472E00C36B2A /* Sources */,
+				522018352679472E00C36B2A /* Frameworks */,
+				522018362679472E00C36B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MsgDevicesWatch Extension";
+			productName = "MsgDevicesWatch Extension";
+			productReference = 522018382679472E00C36B2A /* MsgDevicesWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,6 +376,12 @@
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = 520B43F3266D6FA6003AECF0;
 					};
+					5220182E2679472900C36B2A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					522018372679472E00C36B2A = {
+						CreatedOnToolsVersion = 12.5;
+					};
 				};
 			};
 			buildConfigurationList = 520B43EF266D6FA6003AECF0 /* Build configuration list for PBXProject "MsgDevices" */;
@@ -252,6 +400,8 @@
 				520B43F3266D6FA6003AECF0 /* MsgDevices */,
 				520B4404266D6FA7003AECF0 /* MsgDevicesTests */,
 				520B440F266D6FA7003AECF0 /* MsgDevicesUITests */,
+				5220182E2679472900C36B2A /* MsgDevicesWatch */,
+				522018372679472E00C36B2A /* MsgDevicesWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -277,6 +427,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220182D2679472900C36B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522018322679472E00C36B2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522018362679472E00C36B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5220184B2679472F00C36B2A /* Preview Assets.xcassets in Resources */,
+				522018482679472F00C36B2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +479,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		522018342679472E00C36B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522018422679472E00C36B2A /* NotificationController.swift in Sources */,
+				522018402679472E00C36B2A /* ContentView.swift in Sources */,
+				522018462679472E00C36B2A /* ComplicationController.swift in Sources */,
+				5220183E2679472E00C36B2A /* MsgDevicesApp.swift in Sources */,
+				522018442679472E00C36B2A /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -324,6 +503,16 @@
 			isa = PBXTargetDependency;
 			target = 520B43F3266D6FA6003AECF0 /* MsgDevices */;
 			targetProxy = 520B4411266D6FA7003AECF0 /* PBXContainerItemProxy */;
+		};
+		5220183B2679472E00C36B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522018372679472E00C36B2A /* MsgDevicesWatch Extension */;
+			targetProxy = 5220183A2679472E00C36B2A /* PBXContainerItemProxy */;
+		};
+		5220184F2679472F00C36B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5220182E2679472900C36B2A /* MsgDevicesWatch */;
+			targetProxy = 5220184E2679472F00C36B2A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -572,6 +761,94 @@
 			};
 			name = Release;
 		};
+		522018522679472F00C36B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MsgDevicesWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = K97KHP3ZWG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MsgDevicesWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunfishempire.MsgDevices.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		522018532679472F00C36B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MsgDevicesWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = K97KHP3ZWG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MsgDevicesWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunfishempire.MsgDevices.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		522018562679472F00C36B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K97KHP3ZWG;
+				IBSC_MODULE = MsgDevicesWatch_Extension;
+				INFOPLIST_FILE = MsgDevicesWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunfishempire.MsgDevices.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		522018572679472F00C36B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K97KHP3ZWG;
+				IBSC_MODULE = MsgDevicesWatch_Extension;
+				INFOPLIST_FILE = MsgDevicesWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunfishempire.MsgDevices.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -607,6 +884,24 @@
 			buildConfigurations = (
 				520B4420266D6FA7003AECF0 /* Debug */,
 				520B4421266D6FA7003AECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522018512679472F00C36B2A /* Build configuration list for PBXNativeTarget "MsgDevicesWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522018522679472F00C36B2A /* Debug */,
+				522018532679472F00C36B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522018552679472F00C36B2A /* Build configuration list for PBXNativeTarget "MsgDevicesWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522018562679472F00C36B2A /* Debug */,
+				522018572679472F00C36B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
